@@ -1,0 +1,8 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="20,90 10,10 60,90 50,10 100,90 90,10 130,90 130,30"
+            fill="none" stroke="#e51e26" stroke-width="23"
+            stroke-dasharray="600" stroke-dashoffset="600">
+    <animate attributeName="stroke-dashoffset" from="600" to="0" dur=".9s" fill="freeze" begin="0s; erase.end" id="draw" />
+    <animate attributeName="stroke-dashoffset" from="0" to="600" dur=".9s" fill="freeze" begin="draw.end" id="erase" />
+  </polyline>
+</svg>
